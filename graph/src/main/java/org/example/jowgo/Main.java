@@ -35,5 +35,7 @@ public class Main
         System.out.printf("\nConstructed: %s\n\n", graph.toString(100));
 
         graph.print_descriptives();
+
+        System.exit(Constant.SUCCESS);
     }
 }
